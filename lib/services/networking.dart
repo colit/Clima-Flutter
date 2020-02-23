@@ -14,7 +14,7 @@ class NetworkHelper {
       String data = response.body;
       return(jsonDecode(data));
     } else {
-      print('Respoce code: $statusCode');
+      print('Responce code: $statusCode');
     }
 
   }
